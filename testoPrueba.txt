@@ -14,4 +14,8 @@ para ver cambios en un archivo esecifico
 para cambiar user y el email
 para mostrar cambios en el texto o codigo mostrando los cambios 
  git show
- 
+para ver los cambios hechos entre disco duro y staging
+    git diff
+ahora para revisar versiones anteriores de archivos me voy al log y selecciono la version a la que quiero retroceder
+    git log
+    git checkout 4430f11c2866ff161097e08c13933d208a0e985f
