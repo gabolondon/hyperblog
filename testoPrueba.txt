@@ -12,3 +12,6 @@ luego para ver cambios hechos en archivos generales
 para ver cambios en un archivo esecifico
  git log testoPruebas.txt 
 para cambiar user y el email
+para mostrar cambios en el texto o codigo mostrando los cambios 
+ git show
+ 
