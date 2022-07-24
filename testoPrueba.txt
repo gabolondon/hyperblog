@@ -1,5 +1,14 @@
-Este es un texto de pruebas
-
-para git haceiendo pruebas ahora desde 0
-
-modificando con mejoras
+este texto seran las notas del curso
+para iniciar un repositorio debo ir en GIT hasta la carpeta donde tenga el codigo
+luego iniciar con 
+ git init
+luego crear el archivo o agregar los archivos que quiero mover en esta carpeta
+ git add testoPrueba.txt
+luego se hace el commit que debe llevar comentario
+ git commit -m "comentario de cambio"
+si no lleva comentario se abre ventana de editor VIM, en esa para guardar es con SHIFT+ESC+Z Z luego de agregar el comentario
+luego para ver cambios hechos en archivos generales 
+ git log 
+para ver cambios en un archivo esecifico
+ git log testoPruebas.txt 
+para cambiar user y el email
