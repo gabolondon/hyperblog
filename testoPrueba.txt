@@ -111,3 +111,6 @@ ahora para revisar versiones anteriores de archivos me voy al log y selecciono l
   129  git push origin :refs/tags/v0.1
   130  git show-branch --all
   131  gitk
+
+SIEMPRE AL REINICIAR ME PIDE CONTRASEÑA NUEVAMENTE DEBO METER EL COMANDO
+    ssh-add ~/.ssh/id_rsa 
