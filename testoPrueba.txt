@@ -19,3 +19,95 @@ para ver los cambios hechos entre disco duro y staging
 ahora para revisar versiones anteriores de archivos me voy al log y selecciono la version a la que quiero retroceder
     git log
     git checkout 4430f11c2866ff161097e08c13933d208a0e985f
+41  git show
+   42  git diff d79be8663ccace2c2911b9e26ef41f7305f77732 d79be8663ccace2c2911b9e26ef41f7305f77732
+   43  git diff d79be8663ccace2c2911b9e26ef41f7305f77732 d79be8663ccace2c2911b9e26ef41f7305f77732
+   44  git add .
+   45  git commit -m "agregando mas notas del curso"
+   46  git add .
+   47  git status
+   48  git diff
+   49  git add .
+   50  git commit -m "iniciando a programar con git"
+   51  git log
+   52  git checkout 4430f11c2866ff161097e08c13933d208a0e985f
+   53  git switch -
+   54  git add .
+   55  git commit -m "agregando lo de checkout a las notas del curso
+"
+   56  git checkout 4430f11c2866ff161097e08c13933d208a0e985f testoPruebas.txt
+   57  git checkout 4430f11c2866ff161097e08c13933d208a0e985f testoPrueba.txt
+   58  git checkout master testoPrueba.txt
+   59  git commit -a
+   60  git bracnh header
+   61  git branch header
+   62  git status
+   63  git status --show
+   64  git show
+   65  git checkout header
+   66  git add .
+   67  git commit
+   68  git status
+   69  git show
+   70  git log
+   71  git commit -am "contenido y style de cabecera terminados"
+   72  git checkout master
+   73  git checkout heade
+   74  git checkout header
+   75  git checkout master
+   76  git commit -am "Agregado un nuevo parrafo a master y cambio del font"
+   77  git branch
+   78  git merge header
+   79  git commit -am "cambiando en master el font a arial"
+   80  git status
+   81  git checkout header
+   82  git commit -am "cambiando en cabeceratext align a left"
+   83  git checkout master
+   84  git commit -am "cambiando en master text align a right"
+   85  git merge header
+   86  git commit -am "solucionando conflicto del merge"
+   87  git remote add origin
+   88  git remote add origin https://github.com/gabolondon/hyperblog.git
+   89  git remote
+   90  git remote -v
+   91  git push origin master
+   92  git status
+   93  git push origin master
+   94  git push --help
+   95  git push origin master
+   96  git pull origin master
+   97  git pull origin master --allow-unrelated-histories
+   98  git status
+   99  git push origin master
+  100  git status
+  101  git pull remote origin
+  102  git pull origin master
+  103  cd
+  104  ssh-keygen -t rsa -b 4096 -C "ing.gabriel.londono@gmail.com"
+  105  eval $(ssh-agent -s)
+  106  ssh-add ~/.ssh/id_rsa
+  107  cd proyecto1
+  108  git remote -v
+  109  git remote set-url origin git@github.com:gabolondon/hyperblog.git
+  110  git remote -v
+  111  git pull
+  112  git pull origin master
+  113  git status
+  114  git diff
+  115  git commit -am "cambio en el titulo para mostrar version 2 actualizada"
+  116  git pull origin master
+  117  git push origin master
+  118  git log --all --graph --decorate --oneline
+  119  git tag -a v0.1 -m "merge o union del header con el master por primera vez"
+  120  git tag
+  121  git pull origin master
+  122  git push origin --tags
+  123  git tag -a v0.1 -m "merge o union del header con el master por primera vez"
+  124  git tag -a v0.1 -m "primera version de pagina" 7e0632f
+  125  git tag -a v0.2 -m "primera version de pagina" 7e0632f
+  126  git tag
+  127  git tag -d v0.1
+  128  git push origin --tags
+  129  git push origin :refs/tags/v0.1
+  130  git show-branch --all
+  131  gitk
